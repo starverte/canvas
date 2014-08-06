@@ -92,6 +92,26 @@ body {
 
 /* =Footer
 ----------------------------------------------- */
+.site-footer {
+  min-height: 100px;
+  color: #777;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+}
+#footer-left {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#credits {
+  font-size: 14px;
+  text-align: center;
+}
+.icon-star,
+.icon-cs,
+.icon-spark {
+  width: 30px;
+  height: auto;
+}
 
 
 /* =Buttons
