@@ -71,6 +71,17 @@ body {
 
 /* =Content
 ----------------------------------------------- */
+#learn-more:focus,
+#plans:focus {
+  outline: none;
+}
+.page .entry-title,
+.entry-header .btn-edit {
+  display: none;
+}
+.page .entry-content {
+  margin: 0;
+}
 
 
 /* =Media
