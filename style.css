@@ -290,3 +290,47 @@ fieldset[disabled] .btn-sv.active {
   color: #5fc300;
   background-color: #fff;
 }
+
+
+/* =Panels
+----------------------------------------------- */
+
+/* Fort Collins Creative */
+.panel-fcc {
+  border-color: #ffa110;
+}
+.panel-fcc > .panel-heading {
+  color: #fff;
+  background-color: #ffa110;
+  border-color: #ffa110;
+}
+.panel-fcc > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ffa110;
+}
+.panel-fcc > .panel-heading .badge {
+  color: #ffa110;
+  background-color: #fff;
+}
+.panel-fcc > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ffa110;
+}
+
+/* Sparks */
+.panel-sparks {
+  border-color: #e13a8b;
+}
+.panel-sparks > .panel-heading {
+  color: #fff;
+  background-color: #e13a8b;
+  border-color: #e13a8b;
+}
+.panel-sparks > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #e13a8b;
+}
+.panel-sparks > .panel-heading .badge {
+  color: #e13a8b;
+  background-color: #fff;
+}
+.panel-sparks > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #e13a8b;
+}
