@@ -10,7 +10,7 @@
 
 $sv_site = get_theme_mod( 'sv_site' ); ?>
 
-<div id="masthead" class="canvas site-header" role="banner">
+<div id="masthead" class="fill site-header" role="banner">
   <div class="container">
     <div class="site-branding">
       <?php if (is_front_page()) { ?>
