@@ -46,11 +46,11 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
               Download <span class="caret"></span>
             </button>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Flint</a></li>
-              <li><a href="#">Steel</a></li>
+              <li><a href="https://github.com/starverte/flint/releases/download/v1.3.4/flint.zip">Flint</a></li>
+              <li><a href="https://github.com/starverte/steel/releases/download/v1.2.4/steel.zip">Steel</a></li>
             </ul>
           </div>
-          <a class="btn btn-sparks navbar-btn" href="#">Support</a>
+          <a class="btn btn-sparks navbar-btn" href="<?php echo esc_url( home_url('/support') ); ?>">Support</a>
           <a class="btn btn-default disabled navbar-btn" href="#">Login</a>
         </div>
         <?php } ?>
@@ -64,3 +64,4 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
       </div><!-- .navbar-collapse -->
     </div><!-- .container -->
   </nav><!-- .navbar -->
+
