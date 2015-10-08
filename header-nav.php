@@ -28,7 +28,11 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <?php
         if (!empty($sv_site) && ($sv_site == 'fortcollinscreative' | $sv_site == 'sparks' )) {
-          wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
+          if ( class_exists( 'Flint_Walker_Nav_Menu_Navbar' ) ) {
+            wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Walker_Nav_Menu_Navbar ) );
+          } else {
+            wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Bootstrap_Menu ) );
+          }
         }
         ?>
 
