@@ -1,4 +1,4 @@
-Canvas 0.0.0
+Canvas 0.1.0
 =====
 Child theme of Flint. Used for Star Verte LLC company websites.
 
