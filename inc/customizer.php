@@ -2,8 +2,8 @@
 /**
  * canvas Theme Customizer
  *
- * @package canvas/Canvas
- * @since 0.0.0
+ * @package Flint/Canvas
+ * @since 0.1.0
  */
 
 function canvas_customize_register( $wp_customize ) {

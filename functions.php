@@ -3,6 +3,7 @@
  * Canvas functions and definitions
  *
  * @package Flint/Canvas
+ * @since 0.1.0
  */
 
 if ( ! function_exists( 'canvas_after_setup_theme' ) ) :
