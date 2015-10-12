@@ -5,7 +5,7 @@
  * Displays the branding header element
  *
  * @package Flint/Canvas
- * @since 0.0.0
+ * @since 0.1.0
  */
 
 $sv_site = get_theme_mod( 'sv_site' ); ?>
