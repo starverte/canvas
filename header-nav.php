@@ -28,7 +28,7 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <?php
-        if (!empty($sv_site) && ($sv_site == 'fortcollinscreative' | $sv_site == 'sparks' )) {
+        if (!empty($sv_site) && ($sv_site == 'fortcollinscreative' | $sv_site == 'msx' )) {
           if ( class_exists( 'Flint_Walker_Nav_Menu_Navbar' ) ) {
             wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'fallback_cb' => false, 'walker' => new Flint_Walker_Nav_Menu_Navbar ) );
           } else {
@@ -44,10 +44,10 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
         </div>
         <?php } ?>
 
-        <?php if (!empty($sv_site) && $sv_site == 'sparks') { ?>
+        <?php if (!empty($sv_site) && $sv_site == 'msx') { ?>
         <div class="navbar-right">
           <div class="btn-group">
-            <button type="button" class="btn btn-sparks dropdown-toggle" data-toggle="dropdown">
+            <button type="button" class="btn btn-msx dropdown-toggle" data-toggle="dropdown">
               Download <span class="caret"></span>
             </button>
             <ul class="dropdown-menu" role="menu">
@@ -55,7 +55,7 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
               <li><a href="https://github.com/starverte/steel/releases/download/v1.2.4/steel.zip">Steel</a></li>
             </ul>
           </div>
-          <a class="btn btn-sparks navbar-btn" href="<?php echo esc_url( home_url('/support') ); ?>">Support</a>
+          <a class="btn btn-msx navbar-btn" href="<?php echo esc_url( home_url('/support') ); ?>">Support</a>
           <a class="btn btn-default disabled navbar-btn" href="#">Login</a>
         </div>
         <?php } ?>
