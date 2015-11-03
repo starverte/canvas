@@ -23,7 +23,7 @@ function canvas_customize_register( $wp_customize ) {
     'choices' => array(
       'starverte'            =>  'Star Verte LLC',
       'fortcollinscreative'  =>  'Fort Collins Creative',
-      'sparks'               =>  'Matchstix',
+      'msx'                  =>  'Matchstix',
     ),
   )));
 
