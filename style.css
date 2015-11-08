@@ -294,18 +294,40 @@ fieldset[disabled] .navbar-canvas .btn-link:focus {
 
 /* Fort Collins Creative */
 .btn-fcc {
-  color: #fff;
-  background-color: #ffa110;
-  border-color: #f69500;
+  color: #ffffff;
+  background-color: #0064a0;
+  border-color: #005487;
 }
-.btn-fcc:hover,
 .btn-fcc:focus,
+.btn-fcc.focus {
+  color: #ffffff;
+  background-color: #00446d;
+  border-color: #000407;
+}
+.btn-fcc:hover {
+  color: #ffffff;
+  background-color: #00446d;
+  border-color: #002e49;
+}
 .btn-fcc:active,
 .btn-fcc.active,
 .open > .dropdown-toggle.btn-fcc {
-  color: #fff;
-  background-color: #dc8500;
-  border-color: #b87000;
+  color: #ffffff;
+  background-color: #00446d;
+  border-color: #002e49;
+}
+.btn-fcc:active:hover,
+.btn-fcc.active:hover,
+.open > .dropdown-toggle.btn-fcc:hover,
+.btn-fcc:active:focus,
+.btn-fcc.active:focus,
+.open > .dropdown-toggle.btn-fcc:focus,
+.btn-fcc:active.focus,
+.btn-fcc.active.focus,
+.open > .dropdown-toggle.btn-fcc.focus {
+  color: #ffffff;
+  background-color: #002e49;
+  border-color: #000407;
 }
 .btn-fcc:active,
 .btn-fcc.active,
@@ -321,18 +343,21 @@ fieldset[disabled] .btn-fcc:hover,
 .btn-fcc.disabled:focus,
 .btn-fcc[disabled]:focus,
 fieldset[disabled] .btn-fcc:focus,
+.btn-fcc.disabled.focus,
+.btn-fcc[disabled].focus,
+fieldset[disabled] .btn-fcc.focus,
 .btn-fcc.disabled:active,
 .btn-fcc[disabled]:active,
 fieldset[disabled] .btn-fcc:active,
 .btn-fcc.disabled.active,
 .btn-fcc[disabled].active,
 fieldset[disabled] .btn-fcc.active {
-  background-color: #ffa110;
-  border-color: #f69500;
+  background-color: #0064a0;
+  border-color: #005487;
 }
 .btn-fcc .badge {
-  color: #ffa110;
-  background-color: #fff;
+  color: #0064a0;
+  background-color: #ffffff;
 }
 
 /* Label button */
@@ -463,22 +488,22 @@ fieldset[disabled] .btn-sv.active {
 
 /* Fort Collins Creative */
 .panel-fcc {
-  border-color: #ffa110;
+  border-color: #0064a0;
 }
 .panel-fcc > .panel-heading {
-  color: #fff;
-  background-color: #ffa110;
-  border-color: #ffa110;
+  color: #ffffff;
+  background-color: #0064a0;
+  border-color: #0064a0;
 }
 .panel-fcc > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #ffa110;
+  border-top-color: #0064a0;
 }
 .panel-fcc > .panel-heading .badge {
-  color: #ffa110;
-  background-color: #fff;
+  color: #0064a0;
+  background-color: #ffffff;
 }
 .panel-fcc > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #ffa110;
+  border-bottom-color: #0064a0;
 }
 
 /* Matchstix */
