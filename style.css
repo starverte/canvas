@@ -441,18 +441,40 @@ fieldset[disabled] .btn-msx.active {
 
 /* Star Verte */
 .btn-sv {
-  color: #fff;
-  background-color: #5fc300;
-  border-color: #53aa00;
+  color: #ffffff;
+  background-color: #279f00;
+  border-color: #218600;
 }
-.btn-sv:hover,
 .btn-sv:focus,
+.btn-sv.focus {
+  color: #ffffff;
+  background-color: #1a6c00;
+  border-color: #010600;
+}
+.btn-sv:hover {
+  color: #ffffff;
+  background-color: #1a6c00;
+  border-color: #124800;
+}
 .btn-sv:active,
 .btn-sv.active,
 .open > .dropdown-toggle.btn-sv {
-  color: #fff;
-  background-color: #469000;
-  border-color: #356c00;
+  color: #ffffff;
+  background-color: #1a6c00;
+  border-color: #124800;
+}
+.btn-sv:active:hover,
+.btn-sv.active:hover,
+.open > .dropdown-toggle.btn-sv:hover,
+.btn-sv:active:focus,
+.btn-sv.active:focus,
+.open > .dropdown-toggle.btn-sv:focus,
+.btn-sv:active.focus,
+.btn-sv.active.focus,
+.open > .dropdown-toggle.btn-sv.focus {
+  color: #ffffff;
+  background-color: #124800;
+  border-color: #010600;
 }
 .btn-sv:active,
 .btn-sv.active,
@@ -468,18 +490,21 @@ fieldset[disabled] .btn-sv:hover,
 .btn-sv.disabled:focus,
 .btn-sv[disabled]:focus,
 fieldset[disabled] .btn-sv:focus,
+.btn-sv.disabled.focus,
+.btn-sv[disabled].focus,
+fieldset[disabled] .btn-sv.focus,
 .btn-sv.disabled:active,
 .btn-sv[disabled]:active,
 fieldset[disabled] .btn-sv:active,
 .btn-sv.disabled.active,
 .btn-sv[disabled].active,
 fieldset[disabled] .btn-sv.active {
-  background-color: #5fc300;
-  border-color: #53aa00;
+  background-color: #279f00;
+  border-color: #218600;
 }
 .btn-sv .badge {
-  color: #5fc300;
-  background-color: #fff;
+  color: #279f00;
+  background-color: #ffffff;
 }
 
 
