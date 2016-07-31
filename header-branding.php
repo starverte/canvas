@@ -54,7 +54,7 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
 
         <?php } /* if (!empty($sv_site) && $sv_site == 'fortcollinscreative') */ ?>
 
-        <?php if (!empty($sv_site) && $sv_site == 'sparks') { ?>
+        <?php if (!empty($sv_site) && $sv_site == 'msx') { ?>
 
           <h2 class="tagline"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">WordPress Development Framework</a></h2>
 
@@ -64,13 +64,13 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
 
           <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-              <a class="btn btn-canvas btn-block btn-lg hidden-sm hidden-xs" href="http://sparks.starverte.com/flint">Learn more about Flint</a>
-              <a class="btn btn-canvas btn-block visible-sm-block visible-xs-block" href="http://sparks.starverte.com/flint">Learn more <br class="visible-xs-block">about Flint</a>
+              <a class="btn btn-canvas btn-block btn-lg hidden-sm hidden-xs" href="http://matchstix.io/flint">Learn more about Flint</a>
+              <a class="btn btn-canvas btn-block visible-sm-block visible-xs-block" href="http://matchstix.io/flint">Learn more <br class="visible-xs-block">about Flint</a>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-              <a class="btn btn-canvas btn-block btn-lg hidden-sm hidden-xs" href="http://sparks.starverte.com/steel">Learn more about Steel</a>
-              <a class="btn btn-canvas btn-block visible-sm-block visible-xs-block" href="http://sparks.starverte.com/steel">Learn more <br class="visible-xs-block">about Steel</a>
+              <a class="btn btn-canvas btn-block btn-lg hidden-sm hidden-xs" href="http://matchstix.io/steel">Learn more about Steel</a>
+              <a class="btn btn-canvas btn-block visible-sm-block visible-xs-block" href="http://matchstix.io/steel">Learn more <br class="visible-xs-block">about Steel</a>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -82,7 +82,7 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
 
           </div><!-- .row -->
 
-        <?php } /* if (!empty($sv_site) && $sv_site == 'sparks') */ ?>
+        <?php } /* if (!empty($sv_site) && $sv_site == 'msx') */ ?>
 
         <?php if (!empty($sv_site) && $sv_site == 'starverte') { ?>
 
@@ -130,7 +130,7 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
         <p>Powering Creativity</p>
       <?php } ?>
 
-      <?php if (!empty($sv_site) && $sv_site == 'sparks') { ?>
+      <?php if (!empty($sv_site) && $sv_site == 'msx') { ?>
         <p>Inspiring Developers to Create Sites on Fire</p>
       <?php } ?>
 

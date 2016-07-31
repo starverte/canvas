@@ -3,7 +3,7 @@ Canvas 0.1.0
 Child theme of Flint. Used for Star Verte LLC company websites.
 
 ```
-Canvas is a child theme of Flint http://sparks.starverte.com/flint
+Canvas is a child theme of Flint http://matchstix.io/flint
 (C) 2013-2014 Star Verte LLC
 Licensed under the GNU General Public License v3.0, http://www.gnu.org/licenses/gpl.html
 ```
