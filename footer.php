@@ -23,10 +23,10 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
           <a href="http://starverte.com"><img class="icon-star" src="<?php echo get_stylesheet_directory_uri(); ?>/img/star.png"></a>
         </div>
         <div class="col-xs-4">
-          <a href="http://fortcollinscreative.com"><img class="icon-cs" src="<?php echo get_stylesheet_directory_uri(); ?>/img/Cs.png"></a>
+          <a href="http://fortcollinscreative.com"><img class="icon-cs" src="<?php echo get_stylesheet_directory_uri(); ?>/img/paintbrush.png"></a>
         </div>
         <div class="col-xs-4">
-          <a href="http://sparks.starverte.com"><img class="icon-spark" src="<?php echo get_stylesheet_directory_uri(); ?>/img/spark.png"></a>
+          <a href="http://matchstix.io"><img class="icon-match" src="<?php echo get_stylesheet_directory_uri(); ?>/img/match.png"></a>
         </div>
       </div>
       <p>
@@ -39,7 +39,7 @@ $sv_site = get_theme_mod( 'sv_site' ); ?>
         Created by <a href="http://starverte.com">Star Verte</a><br class="hidden-xs">
       <?php } ?>
 
-      <?php if (!empty($sv_site) && $sv_site == 'sparks') { ?>
+      <?php if (!empty($sv_site) && $sv_site == 'msx') { ?>
         Fueled by <a href="http://starverte.com">Star Verte</a><br class="hidden-xs">
       <?php } ?>
 
